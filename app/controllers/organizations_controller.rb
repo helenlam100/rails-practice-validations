@@ -14,6 +14,7 @@ class OrganizationsController < ApplicationController
       redirect_to organizations_path, notice: "Organization saved successfully"
     else
       render :new
+    end
   end
 
   def edit
@@ -26,7 +27,7 @@ class OrganizationsController < ApplicationController
       redirect_to organizations_path, notice: "Organization updated successfully"
     else
       render :edit
-    end 
+    end
   end
 
   private

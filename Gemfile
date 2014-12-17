@@ -15,8 +15,9 @@ gem 'autoprefixer-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara'
 
-  gem 'launchy'
-  gem 'quiet_assets'
-  gem 'faker'
+  # gem 'launchy'
+  # gem 'quiet_assets'
+  # gem 'faker'
 end
